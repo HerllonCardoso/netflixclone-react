@@ -11,6 +11,8 @@ export default ({ item }) => {
     genres.push(item.genres[i].name);
   }
 
+  let description = item.overview;
+
   return (
     <section
       className="featured"
