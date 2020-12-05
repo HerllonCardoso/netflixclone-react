@@ -4,6 +4,7 @@ import "./App.css";
 import Tmdb from "./Tmdb";
 import MovieRow from "./components/MovieRow/MovieRow";
 import FeaturedMovies from "./components/FeaturedMovie/FeaturedMovie";
+import Header from "./components/Header/Header";
 
 export default () => {
   const [movieList, setMovieList] = useState([]);
@@ -30,6 +31,7 @@ export default () => {
 
   return (
     <div className="page">
+      <Header />
       {featuredData && <FeaturedMovies item={featuredData} />}
       <section className="lists">
         {movieList.map((item, key) => (
