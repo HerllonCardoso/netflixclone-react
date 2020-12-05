@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Tmdb from "./Tmdb";
+import Tmdb from "./api/Tmdb";
 import MovieRow from "./components/MovieRow/MovieRow";
 import FeaturedMovies from "./components/FeaturedMovie/FeaturedMovie";
 import Header from "./components/Header/Header";

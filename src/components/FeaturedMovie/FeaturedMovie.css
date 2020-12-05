@@ -35,6 +35,7 @@
 .featured--seasons {
   display: inline-block;
   margin-right: 15px;
+  font-weight: bold;
 }
 
 .featured--points {
