@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-const API_KEY = "";
+const API_KEY = "7346fa1dc9edd4e0472e6fbb2f60fa6a";
 const API_BASE = "https://api.themoviedb.org/3";
 
 const basicFetch = async (endpoint) => {
